@@ -38,7 +38,7 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
   const paragraphClassName = isFeaturedSection ? "text-light" : "";
   const imageContainerClass = isFeaturedSection
     ? "aspect-[1/1.26]"
-    : "aspect-[4/5]";
+    : "h-full aspect-[4/5]";
   return (
     <div
       className={clsx(
@@ -80,8 +80,8 @@ const TextAndImage: React.FC<TextAndImageProps> = ({
             />
           )}
         </div>
-        <div className={clsx("min-h-0 flex-1", hasGutter && "pl-20")}>
-          <div className={clsx("relative aspect-[4/5]", imageContainerClass)}>
+        <div className={clsx("min-h-0 flex-1", hasGutter && "2xl:pl-20")}>
+          <div className={clsx("relative", imageContainerClass)}>
             <Image
               src={imageSrc}
               alt={imageAlt || "default alt text"}

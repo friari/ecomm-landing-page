@@ -88,10 +88,6 @@
   }
 
   /* Typography */
-  .text-link {
-    @apply text-base xl:text-[1.375rem];
-  }
-
   .text-primary {
     @apply text-everglade;
   }
@@ -102,6 +98,10 @@
 
   .text-dark {
     @apply text-mine-shaft;
+  }
+
+  .text-link {
+    @apply text-base text-everglade xl:text-[1.375rem];
   }
 
   /* Misc */
