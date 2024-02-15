@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Fonts & typography */
+  h1,
+  .h1 {
+    @apply mb-5 font-rufina text-6xl font-bold lg:mb-7 xl:text-[5.375rem];
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    @apply font-roboto-slab;
+  }
+
+  h2,
+  .h2 {
+    @apply text-5xl xl:text-[4rem];
+  }
+
+  h3,
+  .h3 {
+    @apply mb-4 text-4xl xl:mb-5 xl:text-[2.875rem];
+  }
+
+  p,
+  .p {
+    @apply font-poppins text-lg xl:text-[1.375rem];
+  }
+}
+
+@layer components {
+  /* Buttons */
+  .btn {
+    @apply inline-flex rounded-[3px] text-xl;
+  }
+
+  .btn-primary {
+    @apply bg-everglade text-white;
+  }
+
+  .btn-secondary {
+    @apply border-2 border-everglade bg-transparent text-everglade;
+  }
+
+  .btn-sm {
+    @apply px-[2.5625rem] py-[0.6875rem];
+  }
+
+  .btn-md {
+    @apply px-[3.4375rem] py-4;
+  }
+
+  .btn-lg {
+    @apply min-w-[14.6875rem] px-[3.75rem] py-[1.375rem];
+  }
+}
+
+@layer utilities {
+  /* Layout */
+  .gutter-sm {
+    @apply px-16;
+  }
+
+  .gutter-lg {
+    @apply px-24;
+  }
+
+  .gutter-xl {
+    @apply px-44;
+  }
+
+  .gutters-full {
+    @apply gutter-sm lg:gutter-lg xl:gutter-xl;
+  }
+
+  .position-center {
+    @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform;
+  }
+
+  /* Typography */
+  .text-link {
+    @apply text-base xl:text-[1.375rem];
+  }
+
+  .text-primary {
+    @apply text-everglade;
+  }
+
+  .text-light {
+    @apply text-eucalyptus;
+  }
+
+  .text-dark {
+    @apply text-mine-shaft;
+  }
+
+  /* Misc */
+  .bg-primary {
+    @apply bg-cruise;
+  }
+
+  .drop-shadow-sm {
+    box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
+  }
+
+  .drop-shadow-lg {
+    box-shadow: 6px 33px 59px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  .divider {
+    @apply h-[1.6875rem] w-[1px] shrink-0 bg-mine-shaft;
+  }
+}

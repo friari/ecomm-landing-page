@@ -1,0 +1,158 @@
+{
+  "navItems": [
+    {
+      "title": "Home",
+      "url": "/"
+    },
+    {
+      "title": "Shop",
+      "url": "/"
+    },
+    {
+      "title": "Features",
+      "url": "/"
+    },
+    {
+      "title": "Contact",
+      "url": "/"
+    }
+  ],
+  "products": [
+    {
+      "title": "Regular Fit Long Sleeve Top",
+      "image": "/images/pexels-dima-valkov-62116211.jpg",
+      "price": 38.99,
+      "rating": 5
+    },
+    {
+      "title": "Black Crop Tailored Jacket",
+      "image": "/images/pexels-dima-valkov-6211616.jpg",
+      "price": 62.99,
+      "rating": 4.9
+    },
+    {
+      "title": "Textured Sunset Shirt",
+      "image": "/images/pexels-dima-valkov-6503007.jpg",
+      "price": 49.99,
+      "rating": 5
+    },
+    {
+      "title": "Spread Collar Shirt",
+      "image": "/images/pexels-dima-valkov-6402848.jpg",
+      "price": 48.99,
+      "rating": 5
+    },
+    {
+      "title": "White Solid Formal Shirt",
+      "image": "/images/pexels-dima-valkov-6211601.jpg",
+      "price": 39.0,
+      "rating": 4.9
+    },
+    {
+      "title": "Shine On Me Blouse",
+      "image": "/images/frame4.jpg",
+      "price": 42.99,
+      "rating": 4.8
+    },
+    {
+      "title": "Gray Solid Padded Jacket",
+      "image": "/images/pexels-monstera-6311613.jpg",
+      "price": 32.99,
+      "rating": 4.7
+    },
+    {
+      "title": "Printed Loose T-shirt",
+      "image": "/images/pexels-dima-valkov-6211614.jpg",
+      "price": 39.99,
+      "rating": 5
+    },
+    {
+      "title": "Summer Wind Crop Shirt",
+      "image": "/images/pexels-dima-valkov-6402846.jpg",
+      "price": 39.95,
+      "rating": 4.7
+    },
+    {
+      "title": "Tailored Jacket",
+      "image": "/images/pexels-dima-valkov-6211601.jpg",
+      "price": 46,
+      "rating": 4.9
+    },
+    {
+      "title": "Solid Round Neck T-shirt",
+      "image": "/images/pexels-monstera-6311612.jpg",
+      "price": 36,
+      "rating": 5
+    }
+  ],
+  "collections": [
+    {
+      "title": "Accessories",
+      "description": "Complete your ensemble with designer accessories such as handbags, scarves, belts, and hats.",
+      "image": "/images/Rectangle61.jpg"
+    },
+    {
+      "title": "Dresses",
+      "description": "Explore a stunning range of designer dresses, including evening gowns and chic day dresses.",
+      "image": "/images/pexels-dima-valkov-6211617.jpg"
+    },
+    {
+      "title": "Outerwear",
+      "description": "Browse luxurious designer coats, jackets, and blazers to stay stylishly warm during colder seasons.",
+      "image": "/images/vknivfusdkvbjieurgkjvn1.jpg"
+    }
+  ],
+  "sections": {
+    "hero": {
+      "title": "Discover and Find Your Own Fashion!",
+      "subtitle": "Explore our curated collection of stylish clothing and accessories tailored to your unique taste.",
+      "imageSrc": "/images/hero.png",
+      "imageAlt": "Hero Image",
+      "hasGutter": false,
+      "hasH1": true,
+      "isFeaturedSection": true,
+      "cta": {
+        "text": "Explore now",
+        "href": "/",
+        "size": "lg"
+      }
+    },
+    "bestSelling": {
+      "title": {
+        "title": "Best selling",
+        "subtitle": "Get in on the trend with our curated selection of best-selling styles."
+      },
+      "ctaText": "See all",
+      "ctaURL": "/"
+    },
+    "featuredProducts": {
+      "title": {
+        "title": "Featured Products",
+        "subtitle": "Get in on the trend with our curated selection of best-selling styles."
+      },
+      "columns": 4
+    },
+    "exclusiveOffer": {
+      "title": "Exclusive offer",
+      "subtitle": "Unlock the ultimate style upgrade with our exclusive offer Enjoy savings of up to 40% off on our latest New Arrivals",
+      "imageSrc": "/images/excited-white-girl.png",
+      "cta": {
+        "text": "Buy now",
+        "href": "/",
+        "size": "md",
+        "capitalize": true
+      },
+      "countdown": {
+        "date": "2026-12-31T00:00:00"
+      },
+      "reversed": true
+    },
+    "featuredCollections": {
+      "title": {
+        "title": "Designer Clothes For You",
+        "subtitle": "Immerse yourself in the world of luxury fashion with our meticulously crafted designer clothes!"
+      },
+      "variant": "collection"
+    }
+  }
+}
